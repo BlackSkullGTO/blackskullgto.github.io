@@ -1,0 +1,39 @@
+nav{
+	border: 2px solid black;
+	background: #ccc;
+	padding: 2px;
+}
+aside{
+	float: left;
+	display: block;
+	border: 2px solid black;
+	background: #eee;
+	padding: 2px;
+}
+article{
+	display: block;
+	border: 2px solid black;
+	background: #fff;
+	padding: 2px;
+}
+#sample_list, #pack_list{
+	display: block;
+	border: 2px solid black;
+	background: #ccc;
+	padding: 2px;
+}
+#article_list, #learn_list{
+	display: block;
+	border: 2px solid black;
+	background: #ccc;
+	padding: 2px;
+}
+#sample_player{
+	display: block;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 2px;
+	background: black;
+	width: 100%;
+}
