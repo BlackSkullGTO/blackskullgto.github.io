@@ -3,7 +3,19 @@ nav{
 	background: #ccc;
 	padding: 2px;
 	margin-bottom: 20px;
+	width: 100%;
+	display: flex;
 }
+#search_nav{
+	background: #fff;
+	width: 100%;
+}
+#right_nav{
+	flex: 0 0 23%;
+	min-width: 140px;
+	max-width: 150px;
+}
+
 #body{
 	display: flex;
 	width: 100%;
@@ -17,29 +29,34 @@ aside{
 	padding: 2px;
 	margin-right: 20px;
 }
+.menu{
+	padding-left: 0;
+	margin-left: 0;
+	list-style-type: none;
+}
+.menu a{
+	border: 1px solid black;
+	background: #ccc;
+	display: block;
+	height: 40px;
+	
+}
+
 article{
 	width: 100%;
 	border: 2px solid black;
 	background: #fff;
 	padding: 2px;
 }
-footer{
-	border: 2px solid black;
-	background: #ccc;
-	padding: 2px;
-	margin-top: 20px;
+#sample_search{
+	width: 100%;
 }
-#sample_list, #pack_list{
-	display: block;
+#sample_list, #pack_list, #article_list, #learn_list{
 	border: 2px solid black;
 	background: #ccc;
 	padding: 2px;
-}
-#article_list, #learn_list{
-	display: block;
-	border: 2px solid black;
-	background: #ccc;
-	padding: 2px;
+	float: left;
+	width: 49%;
 }
 #sample_player{
 	display: block;
@@ -49,4 +66,11 @@ footer{
 	padding: 2px;
 	background: black;
 	width: 100%;
+}
+
+footer{
+	border: 2px solid black;
+	background: #ccc;
+	padding: 2px;
+	margin-top: 20px;
 }
