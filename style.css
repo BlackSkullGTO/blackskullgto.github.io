@@ -1,76 +1,99 @@
-nav{
-	border: 2px solid black;
-	background: #ccc;
-	padding: 2px;
-	margin-bottom: 20px;
-	width: 100%;
-	display: flex;
-}
-#search_nav{
-	background: #fff;
-	width: 100%;
-}
-#right_nav{
-	flex: 0 0 23%;
-	min-width: 140px;
-	max-width: 150px;
+*{
+  margin:0;
+  padding:0;
 }
 
-#body{
-	display: flex;
-	width: 100%;
-}
-aside{
-	flex: 0 0 23%;
-	min-width: 140px;
-	max-width: 150px;
-	border: 2px solid black;
-	background: #eee;
-	padding: 2px;
-	margin-right: 20px;
-}
-.menu{
-	padding-left: 0;
-	margin-left: 0;
-	list-style-type: none;
-}
-.menu a{
-	border: 1px solid black;
-	background: #ccc;
-	display: block;
-	height: 40px;
-	
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  line-height:1.6;
 }
 
-article{
-	width: 100%;
-	border: 2px solid black;
-	background: #fff;
-	padding: 2px;
-}
-#sample_search{
-	width: 100%;
-}
-#sample_list, #pack_list, #article_list, #learn_list{
-	border: 2px solid black;
-	background: #ccc;
-	padding: 2px;
-	float: left;
-	width: 49%;
-}
-#sample_player{
-	display: block;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	padding: 2px;
-	background: black;
-	width: 100%;
+#showcase{
+  background-image:url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
 }
 
-footer{
-	border: 2px solid black;
-	background: #ccc;
-	padding: 2px;
-	margin-top: 20px;
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#000;
+  border:#000 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#000;
+  color:#fff;
+}
+
+.section-a{
+	padding:20px;
+	background:#926239;
+	color:#fff;
+	text-align:center;
+}
+
+.section-b{
+	padding:20px;
+	background:#f4f4f4;
+	text-align:center;
+}
+
+.section-c{
+	display:flex;
+}
+
+.section-c div{
+	padding:20px;
+}
+
+.section-c .box-1{
+	padding: 30px;
+	background:#fff;
+	width: 60%;
+}
+
+.section-c .box-2{
+	background:#fff;
+	width: 40%;
+}
+
+.section-c .box-2 img{
+	max-width: 100%;
+}
+
+.section-c h1{
+	font-size:80px;
+	line-height:1.2;
+}
+.section-c p, .section-c li{
+	font-size: 20px;
+}
+.section-c li{
+list-style-position: inside
+}
+hr{
+	height:4px;
+	background-color: black;
 }
