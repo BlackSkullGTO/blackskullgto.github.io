@@ -78,8 +78,12 @@ body{
 	background:#fff;
 	width: 40%;
 }
+.section-c .box-3{
+	background:#fff;
+	width: 100%;
+}
 
-.section-c .box-2 img{
+.section-c img, .section-a img{
 	max-width: 100%;
 }
 
