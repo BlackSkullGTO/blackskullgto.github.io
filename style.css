@@ -24,19 +24,21 @@ body{
 }
 
 #showcase h1{
-  font-size:50px;
-  line-height:1.2;
+	font-size:50px;
+	color: white;
+	line-height:1.2;
 }
 
 #showcase p{
-  font-size:20px;
+	color: white;
+	font-size:20px;
 }
 
 #showcase .button{
   font-size:18px;
   text-decoration:none;
-  color:#000;
-  border:#000 1px solid;
+  color:#fff;
+  border:#fff 1px solid;
   padding:10px 20px;
   border-radius:10px;
   margin-top:20px;
